@@ -62,7 +62,7 @@
         methods: {
             //登录
             login: function() {
-                this.$axios.post('http://192.168.43.50:8080/api/login', this.$qs.stringify(this.loginForm))
+                this.$axios.post('http://192.168.1.123:8080/api/login', this.$qs.stringify(this.loginForm))
                     .then(res => {
                         this.$store.commit('setState', res)
                         // console.log("login "+this.$store.getters.getName);
