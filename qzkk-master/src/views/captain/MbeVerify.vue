@@ -107,7 +107,7 @@
         methods: {
             //页面初始化时获取未审核通过的用户列表
             getUnexamineUsers: function() {
-                this.$axios.get('http://10.150.167.227:8080/api/getUnexamineUsers')
+                this.$axios.get(this.commonVar.axiosServe+'api/getUnexamineUsers')
                     .then(res => {
                         this.tableData = res.data.users;
                         this.count = res.data.length;
@@ -120,7 +120,7 @@
                     account: row.account,
                 }
                 console.log(postData);
-                this.$axios.post('http://10.150.167.227:8080/api/examinationPassed', this.$qs.stringify(postData))
+                this.$axios.post(this.commonVar.axiosServe+'api/examinationPassed', this.$qs.stringify(postData))
                     .then(res => {
                         this.$alert("审核成功", "提示", {
                             confirmButtonText: '确定',

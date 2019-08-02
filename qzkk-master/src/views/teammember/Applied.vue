@@ -134,7 +134,7 @@
             getUsers: function() {
                 console.log('res')
 
-                this.$axios.get('http://10.150.167.227:8080/api/getUsers')
+                this.$axios.get(this.commonVar.axiosServe+'api/getUsers')
                     .then(res => {
                         console.log(res)
                         this.tableData = res.data.users;

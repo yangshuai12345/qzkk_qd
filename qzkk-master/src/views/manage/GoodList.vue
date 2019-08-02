@@ -141,7 +141,7 @@
             getgoods:function(){
                 console.log('res')
 
-                this.$axios.get('http://10.150.167.227:8080/api/getGoodList')
+                this.$axios.get(this.commonVar.axiosServe+'api/getGoodList')
                     .then(res =>{
                         this.tableData = res.data.goods;
                         this.count = res.data.length;

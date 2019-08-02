@@ -7,9 +7,10 @@ import './plugins/element.js'
 import axios from 'axios';
 import qs from 'qs';
 import Vuex from "vuex";
-
+import commonVar from '../common.var'
 Vue.prototype.$axios = axios;
 Vue.prototype.$qs = qs;
+Vue.prototype.commonVar = commonVar;
 
 Vue.use(Vuex)
 

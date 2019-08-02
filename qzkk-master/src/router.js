@@ -47,11 +47,13 @@ const router = new Router({
       },{
         path: '/pr',
         name: 'PerRegistration',
-        component: PerRegistration
+        component: PerRegistration,
+        meta: ['登记系统', '人员登记'],
       },{
         path: '/serchPR',
         name: 'SerchPerRegister',
-        component: SerchPerRegister
+        component: SerchPerRegister,
+        meta: ['登记系统', '查看人员登记'],
       },{
         path: '/goodList',
         component: () => import('./views/manage/GoodList.vue'),
