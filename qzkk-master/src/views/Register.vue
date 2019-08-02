@@ -99,7 +99,7 @@
                 alert(this.$store.state.ACCOUNT_NAME);
             },
             register: function () {
-                this.$axios.post(this.commonVar.axiosServe+'api/register', this.$qs.stringify(this.registerForm))
+                this.$axios.post(this.commonVar.axiosServe+'/register', this.$qs.stringify(this.registerForm))
                     .then(res => {
                         if (res.data.name == '') {
                             this.$alert('姓名不能为空', '提示', {

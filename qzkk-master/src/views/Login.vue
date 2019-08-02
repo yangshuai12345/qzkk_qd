@@ -64,7 +64,7 @@
             //登录
             login: function() {
                 console.log(this.commonVar.axiosServe);
-                this.$axios.post(this.commonVar.axiosServe+'api/login', this.$qs.stringify(this.loginForm))
+                this.$axios.post(this.commonVar.axiosServe+'/login', this.$qs.stringify(this.loginForm))
                     .then(res => {
                         this.$store.commit('setState', res)
                         // console.log("login "+this.$store.getters.getName);

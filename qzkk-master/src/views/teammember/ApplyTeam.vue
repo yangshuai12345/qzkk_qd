@@ -131,7 +131,7 @@
             getUsers: function() {
                 //console.log('res')
 
-                this.$axios.get(this.commonVar.axiosServe+'api/getUsers')
+                this.$axios.get(this.commonVar.axiosServe+'/getUsers')
                     .then(res => {
                         //console.log(res)
                         this.tableData = res.data.users;

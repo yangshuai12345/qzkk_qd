@@ -107,8 +107,8 @@
                 this.select();
             },
             select(){
-                var findall=this.commonVar.axiosServe+'api/findAllToPage';
-                var findByConditions=this.commonVar.axiosServe+'api/findByConditions';
+                var findall=this.commonVar.axiosServe+'/findAllToPage';
+                var findByConditions=this.commonVar.axiosServe+'/findByConditions';
                 this.condition.pageOffset=this.currentPage-1;
 
                 this.$axios.post((this.condition.workUnit==''&&this.condition.name==''&&this.condition.subject==''?findall:findByConditions), this.$qs.stringify(this.condition))

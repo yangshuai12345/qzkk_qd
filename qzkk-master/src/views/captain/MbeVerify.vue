@@ -140,7 +140,7 @@
                     account: row.account,
                 }
                 console.log(postData);
-                this.$axios.post('http://10.150.167.227:8080/api/unexaminationPassed', this.$qs.stringify(postData))
+                this.$axios.post(this.commonVar.axiosServe+'/unexaminationPassed', this.$qs.stringify(postData))
                     .then(res => {
                         this.$alert("不通过审核", "提示", {
                             confirmButtonText: '确定',

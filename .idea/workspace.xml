@@ -2,95 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3e532ec-abe2-420f-81f8-ffee277bfda1" name="Default Changelist" comment="添加登记系统的跳转目录">
-      <change afterPath="$PROJECT_DIR$/qzkk-master/common.var.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qzkk-master/src/views/manage/PerRegistration.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qzkk-master/src/views/manage/SerchPerRegister.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/qzkk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/qzkk.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/babel.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/common.var.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/api/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/assets/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/assets/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/components/headTop.vue" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/components/headTop.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/mock.js" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/mock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/plugins/axios.js" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/plugins/axios.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/plugins/element.js" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/plugins/element.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/langs/zh_CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/langs/zh_CN.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/content/default/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/content/default/content.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/content/default/content.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/content/default/content.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/content/document/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/content/document/content.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/content/document/content.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/content/document/content.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/content/writer/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/content/writer/content.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/content/writer/content.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/content/writer/content.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/lightgray.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/lightgray.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide-dark/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide-dark/content.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide-dark/content.inline.css" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide-dark/content.inline.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide-dark/content.inline.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide-dark/content.inline.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide-dark/content.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide-dark/content.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide-dark/content.mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide-dark/content.mobile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide-dark/content.mobile.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide-dark/content.mobile.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide-dark/skin.css" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide-dark/skin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide-dark/skin.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide-dark/skin.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide-dark/skin.mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide-dark/skin.mobile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide-dark/skin.mobile.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide-dark/skin.mobile.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide-dark/tinymce-mobile.woff" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide-dark/tinymce-mobile.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide/content.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide/content.inline.css" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide/content.inline.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide/content.inline.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide/content.inline.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide/content.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide/content.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide/content.mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide/content.mobile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide/content.mobile.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide/content.mobile.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide/fonts/tinymce-mobile.woff" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide/fonts/tinymce-mobile.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide/skin.css" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide/skin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide/skin.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide/skin.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide/skin.mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide/skin.mobile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide/skin.mobile.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide/skin.mobile.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide/tinymce-mobile.woff" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/static/tinymce/skins/ui/oxide/tinymce-mobile.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/style/common.less" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/style/common.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/style/mixin.less" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/style/mixin.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/views/Home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/views/InfService.vue" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/views/InfService.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qzkk-master/common.var.vue" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/common.var.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qzkk-master/src/views/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/views/Login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/views/PerRegistration.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/qzkk-master/src/views/Register.vue" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/views/Register.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/views/captain/AplyGoods.vue" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/views/captain/AplyGoods.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/views/captain/CNotic.vue" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/views/captain/CNotic.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/views/captain/Captain.vue" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/views/captain/Captain.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qzkk-master/src/views/captain/MbeVerify.vue" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/views/captain/MbeVerify.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/views/captain/MemberList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/views/captain/MemberList.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/views/captain/ReturnGoods.vue" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/views/captain/ReturnGoods.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/views/captain/SendNotic.vue" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/views/captain/SendNotic.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/views/captain/ViewGoods.vue" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/views/captain/ViewGoods.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/views/demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/views/demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/views/manage/About.vue" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/views/manage/About.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qzkk-master/src/views/manage/GoodList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/views/manage/GoodList.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/views/manage/GoodVerify.vue" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/views/manage/GoodVerify.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/views/manage/Manage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/views/manage/Manage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/views/manage/MapPosition.vue" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/views/manage/MapPosition.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/views/manage/Notice.vue" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/views/manage/Notice.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/views/manage/NoticeDeliver.vue" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/views/manage/NoticeDeliver.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/views/manage/NoticeVerify.vue" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/views/manage/NoticeVerify.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qzkk-master/src/views/manage/PerRegistration.vue" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/views/manage/PerRegistration.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qzkk-master/src/views/manage/SerchPerRegister.vue" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/views/manage/SerchPerRegister.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qzkk-master/src/views/manage/UserList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/views/manage/UserList.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qzkk-master/src/views/manage/UserVerify.vue" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/views/manage/UserVerify.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qzkk-master/src/views/teammember/Applied.vue" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/views/teammember/Applied.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qzkk-master/src/views/teammember/ApplyTeam.vue" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/views/teammember/ApplyTeam.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/views/teammember/Member.vue" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/views/teammember/Member.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/src/views/teammember/Message.vue" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/src/views/teammember/Message.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qzkk-master/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/qzkk-master/vue.config.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -183,7 +106,7 @@
       <workItem from="1564483134711" duration="9441000" />
       <workItem from="1564534532137" duration="6120000" />
       <workItem from="1564558470298" duration="361000" />
-      <workItem from="1564627204642" duration="22018000" />
+      <workItem from="1564627204642" duration="22569000" />
     </task>
     <task id="LOCAL-00001" summary="添加登记系统的跳转目录">
       <created>1564712766456</created>

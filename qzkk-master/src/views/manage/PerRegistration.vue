@@ -118,7 +118,7 @@
                             confirmButtonText: '确定'
                         })
                     }else{
-                        this.$axios.post(this.commonVar.axiosServe+'api/perRegistration', this.$qs.stringify(this.ruleForm))
+                        this.$axios.post(this.commonVar.axiosServe+'/perRegistration', this.$qs.stringify(this.ruleForm))
                             .then(res => {
                                 if (res.data.code == '500') {
                                     this.$alert(res.data.msg, '提示', {

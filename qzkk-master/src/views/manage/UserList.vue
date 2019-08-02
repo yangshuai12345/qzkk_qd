@@ -133,7 +133,7 @@
             //从服务器获取用户数据
             getUsers: function() {
 
-                this.$axios.get(this.commonVar.axiosServe+'api/getUsers')
+                this.$axios.get(this.commonVar.axiosServe+'/getUsers')
                     .then(res => {
                         console.log(res)
                         this.tableData = res.data.users;
