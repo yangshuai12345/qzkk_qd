@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Login from './views/Login.vue'
-import PerRegistration from './views/PerRegistration'
+import SerchPerRegister from './views/manage/SerchPerRegister'
+import PerRegistration from './views/manage/PerRegistration'
 
 Vue.use(Router)
 
@@ -11,11 +12,6 @@ const router = new Router({
       path: '/',
       name: 'Login',
       component: Login
-    },
-    {
-      path: '/pr',
-      name: 'PerRegistration',
-      component: PerRegistration
     },
     {
       path: '/about',
@@ -48,6 +44,14 @@ const router = new Router({
         path: '/userVerify',
         component: () => import('./views/manage/UserVerify.vue'),
         meta: ['人员管理', '注册审核'],
+      },{
+        path: '/pr',
+        name: 'PerRegistration',
+        component: PerRegistration
+      },{
+        path: '/serchPR',
+        name: 'SerchPerRegister',
+        component: SerchPerRegister
       },{
         path: '/goodList',
         component: () => import('./views/manage/GoodList.vue'),
